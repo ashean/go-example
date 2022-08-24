@@ -9,6 +9,7 @@ import (
 )
 
 func main() {
+	//comment
 	zerolog.SetGlobalLevel(zerolog.InfoLevel)
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
